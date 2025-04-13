@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 namespace FrpAgent.Client
 {
     class ClientController
     {
-        Process frpclient;
         public async Task OpenFRProcess(CancellationToken cts)
         {
             Process frpclient = new Process
@@ -41,11 +35,6 @@ namespace FrpAgent.Client
                 frpclient.Kill();
                 Console.WriteLine("进程已退出！{0}",frpclient.ExitCode);
             });
-        }
-
-        void KillProcess()
-        {
-            frpclient.Kill();
         }
     }
 }
