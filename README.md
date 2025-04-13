@@ -8,10 +8,6 @@
 
 自动从服务器同步 Frp配置文件
 
-轻量高效，无GUI
-
-
-
 ##  TODO List
 
 -  ✅基础客户端通信逻辑
@@ -20,15 +16,11 @@
 -  加密通信与认证支持
 -  添加日志系统（Log to file）
 
-
-
 # Licence
 
 GPL v3.0 License © 2025 [AnyaMuk](https://github.com/AnyaMuk)
 
 See the LICENSE file for full license text.
-
-
 
 # 鸣谢
 
